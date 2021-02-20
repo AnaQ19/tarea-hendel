@@ -31,7 +31,7 @@ class DatabaseConnection {
         $Config = [
             'server' => 'localhost',
             'user' => 'root',
-            'password' => 'root',
+            'password' => '',
             'database' => 'sistama_oda'
         ];
 

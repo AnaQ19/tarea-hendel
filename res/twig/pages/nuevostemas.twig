@@ -1,0 +1,13 @@
+{% extends "base.twig" %}
+{% block main %}
+	<h1>Agregar temas</h1>
+	<form method="post">
+		<div class="form-group">
+			<label for="nombre_tema">nombre del tema</label>
+			<input name="nombre_tema" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="ayuda">
+			<small id="tema_ayuda" class="form-text text-muted">.</small>
+		</div>
+		
+		<button type="submit" class="btn btn-primary">guardar</button>
+	</form>
+{% endblock %}
