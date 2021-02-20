@@ -36,6 +36,7 @@ trait initRoute {
                 ->addRoute(new WebRoute('nuevos_temas', Pages\nuevostemas::class, $Ex))
                 ->addRoute(new WebRoute('carta', Pages\carta::class, $Ex))
                 ->addRoute(new WebRoute('Arquitectura', Pages\Arquitectura::class, $Ex))
+                ->addRoute(new WebRoute('Grid', Pages\Grid::class, $Ex))
                 ->addRoute(new WebRoute('test', Pages\Test::class, $Ex));
 
         $this->Route = $Route->init();
