@@ -37,6 +37,6 @@ class nuevostemas extends Page
 
     public function setUp()
     {
-        $this->controladortema = new temas($this->Extended());
+        $this->controladortema = new nuevostemas($this->Extended());
     }
 }

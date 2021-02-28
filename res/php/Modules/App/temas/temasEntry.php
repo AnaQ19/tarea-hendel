@@ -2,49 +2,27 @@
 
 namespace ODA\Modules\App\temas;
 
-class temasEntry
-{
+class TemasEntry {
+
     private $id_tema = 0;
-    private $nombre_tema = "No definido";
-    
+    private $nombre_tema = "no definido";
 
-    /**
-     * Get the value of id_tema
-     */
-    public function getIdTema()
-    {
-        return $this->id_tema;
+    public function getValor_n() {
+        return $this->valor_n;
     }
 
-    /**
-     * Set the value of id_tema
-     *
-     * @return self
-     */
-    public function setIdTema($id_tema) : self
-    {
-        $this->id_tema = $id_tema;
+    public function getValor_s() {
+        return $this->valor_s;
+    }
 
+    public function setValor_n(int $valor_n) {
+        $this->valor_n = $valor_n;
         return $this;
     }
 
-    /**
-     * Get the value of nombre_tema
-     */
-    public function getNombreTema()
-    {
-        return $this->nombre_tema;
-    }
-
-    /**
-     * Set the value of nombre_tema
-     *
-     * @return self
-     */
-    public function setNombreTema($nombre_tema) : self
-    {
-        $this->nombre_tema = $nombre_tema;
-
+    public function setValor_s(string $valor_s) {
+        $this->valor_s = $valor_s;
         return $this;
     }
+
 }
